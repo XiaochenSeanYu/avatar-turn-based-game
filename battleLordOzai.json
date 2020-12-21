@@ -1,0 +1,115 @@
+{
+  "characters": [
+    {
+      "name": "Aang",
+      "isplayer": true,
+      "element": "Avatar",
+      "stats": {
+        "health": 100.0,
+        "power": 1.0,
+        "speed": 1.0,
+        "evasiveness": 1.0
+      },
+      "description": "small, bald, the Avatar",
+      "moves": [
+        {
+          "id": 1,
+          "name": "Avatar State",
+          "issuper": false,
+          "element": "Avatar",
+          "description": "Aang enters the Avatar State, becoming extremely powerful",
+          "damage": 25.0,
+          "pp": 3
+        },
+        {
+          "id": 2,
+          "name": "Tornado Whirl",
+          "issuper": false,
+          "element": "Air",
+          "description": "Aang spins a dazzling whirlwind at his opponent",
+          "damage": 20.0,
+          "pp": 15
+        },
+        {
+          "id": 3,
+          "name": "Spit Ball",
+          "issuper": false,
+          "element": "Normal",
+          "description": "Aang spits on his opponent",
+          "damage": 5.0,
+          "pp": 30
+        },
+        {
+          "id": 4,
+          "name": "Dolphin Spray",
+          "issuper": false,
+          "element": "Water",
+          "description": "Aang showers his opponent with a strong burst of water",
+          "damage": 12.0,
+          "pp": 20
+        }
+      ]
+    },
+    {
+      "name": "Fire Lord Ozai",
+      "element": "Fire",
+      "isplayer": false,
+      "stats": {
+        "health": 100.0,
+        "power": 1.0,
+        "speed": 1.0,
+        "evasiveness": 1.0
+      },
+      "description": "father of Prince Zuko and Princess Azula, evil dude, wants to rule the world",
+      "moves": [
+        {
+          "id": 1,
+          "name": "Fire Dragon",
+          "issuper": false,
+          "element": "Fire",
+          "description": "Fire Lord Ozai attacks with a dragon of flames",
+          "damage": 21.0,
+          "pp": 12
+        },
+        {
+          "id": 2,
+          "name": "Molten Throne",
+          "issuper": false,
+          "element": "Fire",
+          "description": "Fire Lord Ozai sits atop a floating throne that drips molten lava on his opponent",
+          "damage": 19.0,
+          "pp": 15
+        },
+        {
+          "id": 3,
+          "name": "Blind Rage",
+          "issuper": false,
+          "element": "Normal",
+          "description": "Fire Lord Ozai expresses his distaste for various things, lashing out at his opponent.",
+          "damage": 7.0,
+          "pp": 29
+        },
+        {
+          "id": 4,
+          "name": "Heat Wave",
+          "issuper": false,
+          "element": "Air",
+          "description": "Fire Lord Ozai radiates the heat of a sun for a moment, burning his opponent",
+          "damage": 29.0,
+          "pp": 2
+        }
+      ]
+    }
+  ],
+  "new moves": [
+    {
+      "id": 16,
+      "name": "Forehead Press of Tranquility",
+      "issuper": false,
+      "element": "Avatar",
+      "description": "Aang unleashes his inner chakras and strips his opponent of their bending, ending the fight",
+      "damage": 1000.0,
+      "pp": 1
+    }
+  ]
+}

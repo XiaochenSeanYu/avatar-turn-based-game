@@ -1,0 +1,115 @@
+{
+  "characters": [
+    {
+      "name": "Aang",
+      "isplayer": true,
+      "element": "Avatar",
+      "stats": {
+        "health": 100.0,
+        "power": 1.0,
+        "speed": 1.0,
+        "evasiveness": 1.0
+      },
+      "description": "small, bald, the Avatar",
+      "moves": [
+        {
+          "id": 1,
+          "name": "Avatar State",
+          "issuper": false,
+          "element": "Avatar",
+          "description": "Aang enters the Avatar State, becoming extremely powerful",
+          "damage": 25.0,
+          "pp": 3
+        },
+        {
+          "id": 2,
+          "name": "Tornado Whirl",
+          "issuper": false,
+          "element": "Air",
+          "description": "Aang spins a dazzling whirlwind at his opponent",
+          "damage": 20.0,
+          "pp": 15
+        },
+        {
+          "id": 3,
+          "name": "Spit Ball",
+          "issuper": false,
+          "element": "Normal",
+          "description": "Aang spits on his opponent",
+          "damage": 5.0,
+          "pp": 30
+        },
+        {
+          "id": 4,
+          "name": "Dolphin Spray",
+          "issuper": false,
+          "element": "Water",
+          "description": "Aang showers his opponent with a strong burst of water",
+          "damage": 12.0,
+          "pp": 20
+        }
+      ]
+    },
+    {
+      "name": "Toph",
+      "element": "Earth",
+      "isplayer": false,
+      "stats": {
+        "health": 100.0,
+        "power": 1.0,
+        "speed": 1.0,
+        "evasiveness": 1.0
+      },
+      "description": "small, blind, sees with her feet",
+      "moves": [
+        {
+          "id": 1,
+          "name": "Avalanche",
+          "issuper": false,
+          "element": "Earth",
+          "description": "Toph creates an avalanche, crushing her opponent with large rocks",
+          "damage": 25.0,
+          "pp": 15
+        },
+        {
+          "id": 2,
+          "name": "Little Rich Girl",
+          "issuper": false,
+          "element": "Normal",
+          "description": "Toph uses her wealthy background to hire a random guy to punch her opponent in the face",
+          "damage": 15.0,
+          "pp": 20
+        },
+        {
+          "id": 3,
+          "name": "Foot Quake",
+          "issuper": false,
+          "element": "Earth",
+          "description": "Toph uses her feet to sense the earth and create a trembling earthquake",
+          "damage": 27.0,
+          "pp": 10
+        },
+        {
+          "id": 4,
+          "name": "Geyser",
+          "issuper": false,
+          "element": "Water",
+          "description": "Toph creates a hole in the ground and a geyser erupts in her opponent's face",
+          "damage": 22.0,
+          "pp": 13
+        }
+      ]
+    }
+  ],
+  "new moves": [
+    {
+      "id": 24,
+      "name": "Foot Quake",
+      "issuper": false,
+      "element": "Earth",
+      "description": "Aang uses his feet to sense the earth and create a trembling earthquake",
+      "damage": 27.0,
+      "pp": 10
+    }
+  ]
+}

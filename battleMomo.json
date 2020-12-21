@@ -1,0 +1,115 @@
+{
+  "characters": [
+    {
+      "name": "Aang",
+      "isplayer": true,
+      "element": "Avatar",
+      "stats": {
+        "health": 100.0,
+        "power": 1.0,
+        "speed": 1.0,
+        "evasiveness": 1.0
+      },
+      "description": "small, bald, the Avatar",
+      "moves": [
+        {
+          "id": 1,
+          "name": "Avatar State",
+          "issuper": false,
+          "element": "Avatar",
+          "description": "Aang enters the Avatar State, becoming extremely powerful",
+          "damage": 25.0,
+          "pp": 3
+        },
+        {
+          "id": 2,
+          "name": "Tornado Whirl",
+          "issuper": false,
+          "element": "Air",
+          "description": "Aang spins a dazzling whirlwind at his opponent",
+          "damage": 20.0,
+          "pp": 15
+        },
+        {
+          "id": 3,
+          "name": "Spit Ball",
+          "issuper": false,
+          "element": "Normal",
+          "description": "Aang spits on his opponent",
+          "damage": 5.0,
+          "pp": 30
+        },
+        {
+          "id": 4,
+          "name": "Dolphin Spray",
+          "issuper": false,
+          "element": "Water",
+          "description": "Aang showers his opponent with a strong burst of water",
+          "damage": 12.0,
+          "pp": 20
+        }
+      ]
+    },
+    {
+      "name": "Momo",
+      "element": "Air",
+      "isplayer": false,
+      "stats": {
+        "health": 100.0,
+        "power": 1.0,
+        "speed": 1.0,
+        "evasiveness": 1.0
+      },
+      "description": "tiny lemur, very cute, loves Aang",
+      "moves": [
+        {
+          "id": 1,
+          "name": "Chatter",
+          "issuper": false,
+          "element": "Normal",
+          "description": "Momo makes chattering sounds and annoys his opponent",
+          "damage": 5.0,
+          "pp": 30
+        },
+        {
+          "id": 2,
+          "name": "Dizzy Spinny",
+          "issuper": false,
+          "element": "Air",
+          "description": "Momo flys in circles above his opponent's head, giving them a bad headache",
+          "damage": 18.0,
+          "pp": 20
+        },
+        {
+          "id": 3,
+          "name": "Ear Flaps",
+          "issuper": false,
+          "element": "Air",
+          "description": "Momo bats his big ole ears and blows a gust of wind at his opponent",
+          "damage": 20.0,
+          "pp": 15
+        },
+        {
+          "id": 4,
+          "name": "Hypnosis",
+          "issuper": false,
+          "element": "Air",
+          "description": "Momo hypnotizes his opponent with his big green eyes and gives them shock",
+          "damage": 17.0,
+          "pp": 15
+        }
+      ]
+    }
+  ],
+  "new moves": [
+    {
+      "id": 19,
+      "name": "Silly Dance",
+      "issuper": false,
+      "element": "Air",
+      "description": "Aang distracts his opponent with his funny antics and then gives them a jab of air in the face",
+      "damage": 20.0,
+      "pp": 15
+    }
+  ]
+}

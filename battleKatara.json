@@ -1,0 +1,115 @@
+{
+  "characters": [
+    {
+      "name": "Aang",
+      "isplayer": true,
+      "element": "Avatar",
+      "stats": {
+        "health": 100.0,
+        "power": 1.0,
+        "speed": 1.0,
+        "evasiveness": 1.0
+      },
+      "description": "small, bald, the Avatar",
+      "moves": [
+        {
+          "id": 1,
+          "name": "Avatar State",
+          "issuper": false,
+          "element": "Avatar",
+          "description": "Aang enters the Avatar State, becoming extremely powerful",
+          "damage": 25.0,
+          "pp": 3
+        },
+        {
+          "id": 2,
+          "name": "Tornado Whirl",
+          "issuper": false,
+          "element": "Air",
+          "description": "Aang spins a dazzling whirlwind at his opponent",
+          "damage": 20.0,
+          "pp": 15
+        },
+        {
+          "id": 3,
+          "name": "Spit Ball",
+          "issuper": false,
+          "element": "Normal",
+          "description": "Aang spits on his opponent",
+          "damage": 5.0,
+          "pp": 30
+        },
+        {
+          "id": 4,
+          "name": "Dolphin Spray",
+          "issuper": false,
+          "element": "Water",
+          "description": "Aang showers his opponent with a strong burst of water",
+          "damage": 12.0,
+          "pp": 20
+        }
+      ]
+    },
+    {
+      "name": "Katara",
+      "element": "Water",
+      "isplayer": false,
+      "stats": {
+        "health": 100.0,
+        "power": 1.0,
+        "speed": 1.0,
+        "evasiveness": 1.0
+      },
+      "description": "mom friend, pretty hair, crush on Aang",
+      "moves": [
+        {
+          "id": 1,
+          "name": "Splash",
+          "issuper": false,
+          "element": "Water",
+          "description": "Katara stuns her opponent with a medium splash of water to the face",
+          "damage": 10.0,
+          "pp": 15
+        },
+        {
+          "id": 2,
+          "name": "Bloodbending",
+          "issuper": true,
+          "element": "Water",
+          "description": "Katara manipulates her opponent's blood to control them",
+          "damage": 30.0,
+          "pp": 1
+        },
+        {
+          "id": 3,
+          "name": "Hot Mist",
+          "issuper": false,
+          "element": "Water",
+          "description": "Katara fills her opponent's atmosophere with scalding hot mist",
+          "damage": 22.0,
+          "pp": 10
+        },
+        {
+          "id": 4,
+          "name": "Silent Treatment",
+          "issuper": false,
+          "element": "Normal",
+          "description": "Katara angers her opponent with the silent treatment",
+          "damage": 4.0,
+          "pp": 30
+        }
+      ]
+    }
+  ],
+  "new moves": [
+    {
+      "id": 14,
+      "name": "Hot Mist",
+      "issuper": false,
+      "element": "Water",
+      "description": "Aang fills his opponent's atmosophere with scalding hot mist",
+      "damage": 22.0,
+      "pp": 10
+    }
+  ]
+}

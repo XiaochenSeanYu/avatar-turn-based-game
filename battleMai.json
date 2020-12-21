@@ -1,0 +1,115 @@
+{
+  "characters": [
+    {
+      "name": "Aang",
+      "isplayer": true,
+      "element": "Avatar",
+      "stats": {
+        "health": 100.0,
+        "power": 1.0,
+        "speed": 1.0,
+        "evasiveness": 1.0
+      },
+      "description": "small, bald, the Avatar",
+      "moves": [
+        {
+          "id": 1,
+          "name": "Avatar State",
+          "issuper": false,
+          "element": "Avatar",
+          "description": "Aang enters the Avatar State, becoming extremely powerful",
+          "damage": 25.0,
+          "pp": 3
+        },
+        {
+          "id": 2,
+          "name": "Tornado Whirl",
+          "issuper": false,
+          "element": "Air",
+          "description": "Aang spins a dazzling whirlwind at his opponent",
+          "damage": 20.0,
+          "pp": 15
+        },
+        {
+          "id": 3,
+          "name": "Spit Ball",
+          "issuper": false,
+          "element": "Normal",
+          "description": "Aang spits on his opponent",
+          "damage": 5.0,
+          "pp": 30
+        },
+        {
+          "id": 4,
+          "name": "Dolphin Spray",
+          "issuper": false,
+          "element": "Water",
+          "description": "Aang showers his opponent with a strong burst of water",
+          "damage": 12.0,
+          "pp": 20
+        }
+      ]
+    },
+    {
+      "name": "Mai",
+      "element": "Fire",
+      "isplayer": false,
+      "stats": {
+        "health": 100.0,
+        "power": 1.0,
+        "speed": 1.0,
+        "evasiveness": 1.0
+      },
+      "description": "stoic, indifferent, in love with Zuko like the rest of us are",
+      "moves": [
+        {
+          "id": 1,
+          "name": "Flaming Dagger",
+          "issuper": false,
+          "element": "Fire",
+          "description": "Mai engages in close combat with a small firey dagger",
+          "damage": 15.0,
+          "pp": 10
+        },
+        {
+          "id": 2,
+          "name": "Piercing Glare",
+          "issuper": false,
+          "element": "Fire",
+          "description": "Mai focuses all of her supressed rage into her gaze and shoots out a concentrated beam of light that burns the skin",
+          "damage": 22.0,
+          "pp": 7
+        },
+        {
+          "id": 3,
+          "name": "Scoff",
+          "issuper": false,
+          "element": "Normal",
+          "description": "Mai displays an air of judgement, harming her opponent's resolve",
+          "damage": 5.0,
+          "pp": 20
+        },
+        {
+          "id": 4,
+          "name": "Hot Hair Pins",
+          "issuper": false,
+          "element": "Fire",
+          "description": "Mai attacks her opponent with burning hot hair pins",
+          "damage": 15.0,
+          "pp": 17
+        }
+      ]
+    }
+  ],
+  "new moves": [
+    {
+      "id": 17,
+      "name": "Meteor",
+      "issuper": false,
+      "element": "Fire",
+      "description": "Aang summons a firey comet from the sky",
+      "damage": 30.0,
+      "pp": 5
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "characters": [
+    {
+      "name": "Aang",
+      "isplayer": true,
+      "element": "Avatar",
+      "stats": {
+        "health": 100.0,
+        "power": 1.0,
+        "speed": 1.0,
+        "evasiveness": 1.0
+      },
+      "description": "small, bald, the Avatar",
+      "moves": [
+        {
+          "id": 1,
+          "name": "Avatar State",
+          "issuper": false,
+          "element": "Avatar",
+          "description": "Aang enters the Avatar State, becoming extremely powerful",
+          "damage": 25.0,
+          "pp": 3
+        },
+        {
+          "id": 2,
+          "name": "Tornado Whirl",
+          "issuper": false,
+          "element": "Air",
+          "description": "Aang spins a dazzling whirlwind at his opponent",
+          "damage": 20.0,
+          "pp": 15
+        },
+        {
+          "id": 3,
+          "name": "Spit Ball",
+          "issuper": false,
+          "element": "Normal",
+          "description": "Aang spits on his opponent",
+          "damage": 5.0,
+          "pp": 30
+        },
+        {
+          "id": 4,
+          "name": "Dolphin Spray",
+          "issuper": false,
+          "element": "Water",
+          "description": "Aang showers his opponent with a strong burst of water",
+          "damage": 12.0,
+          "pp": 20
+        }
+      ]
+    },
+    {
+      "name": "Buff Iroh",
+      "element": "Fire",
+      "isplayer": false,
+      "stats": {
+        "health": 100.0,
+        "power": 1.0,
+        "speed": 1.0,
+        "evasiveness": 1.0
+      },
+      "description": "tea lover, inspirational, sweet uncle dude",
+      "moves": [
+        {
+          "id": 1,
+          "name": "Jasmine Dragon",
+          "issuper": false,
+          "element": "Fire",
+          "description": "Iroh brews a pot of hot tea that he uses to burn his opponent",
+          "damage": 20.0,
+          "pp": 12
+        },
+        {
+          "id": 2,
+          "name": "White Lotus",
+          "issuper": false,
+          "element": "Fire",
+          "description": "Iroh attacks with his white lotus wisdom",
+          "damage": 19.0,
+          "pp": 15
+        },
+        {
+          "id": 3,
+          "name": "Ba Sing Se",
+          "issuper": false,
+          "element": "Fire",
+          "description": "Iroh fuels his firey attacks with the rage and sorrow of the events at Ba Sing Se",
+          "damage": 26.0,
+          "pp": 7
+        },
+        {
+          "id": 4,
+          "name": "Bath Song",
+          "issuper": false,
+          "element": "Water",
+          "description": "Iroh takes a quick bath and sings a song out of tune, hurting his opponent's ears",
+          "damage": 6.0,
+          "pp": 29
+        }
+      ]
+    }
+  ],
+  "new moves": [
+    {
+      "id": 11,
+      "name": "Jasmine Dragon",
+      "issuper": false,
+      "element": "Fire",
+      "description": "Aang harnesses his inner dragon, unleashing a breath of fire",
+      "damage": 20.0,
+      "pp": 12
+    }
+  ]
+}

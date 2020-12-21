@@ -1,0 +1,115 @@
+{
+  "characters": [
+    {
+      "name": "Aang",
+      "isplayer": true,
+      "element": "Avatar",
+      "stats": {
+        "health": 100.0,
+        "power": 1.0,
+        "speed": 1.0,
+        "evasiveness": 1.0
+      },
+      "description": "small, bald, the Avatar",
+      "moves": [
+        {
+          "id": 1,
+          "name": "Avatar State",
+          "issuper": false,
+          "element": "Avatar",
+          "description": "Aang enters the Avatar State, becoming extremely powerful",
+          "damage": 25.0,
+          "pp": 3
+        },
+        {
+          "id": 2,
+          "name": "Tornado Whirl",
+          "issuper": false,
+          "element": "Air",
+          "description": "Aang spins a dazzling whirlwind at his opponent",
+          "damage": 20.0,
+          "pp": 15
+        },
+        {
+          "id": 3,
+          "name": "Spit Ball",
+          "issuper": false,
+          "element": "Normal",
+          "description": "Aang spits on his opponent",
+          "damage": 5.0,
+          "pp": 30
+        },
+        {
+          "id": 4,
+          "name": "Dolphin Spray",
+          "issuper": false,
+          "element": "Water",
+          "description": "Aang showers his opponent with a strong burst of water",
+          "damage": 12.0,
+          "pp": 20
+        }
+      ]
+    },
+    {
+      "name": "Suki",
+      "element": "Earth",
+      "isplayer": false,
+      "stats": {
+        "health": 100.0,
+        "power": 1.0,
+        "speed": 1.0,
+        "evasiveness": 1.0
+      },
+      "description": "Kyoshi warrior, proud feminist, will destroy you while calling you a sissy",
+      "moves": [
+        {
+          "id": 1,
+          "name": "Fan Dance",
+          "issuper": false,
+          "element": "Earth",
+          "description": "Suki performs a combative dance with her Kyoshi Warrior fan",
+          "damage": 18.0,
+          "pp": 15
+        },
+        {
+          "id": 2,
+          "name": "Makeup Blast",
+          "issuper": false,
+          "element": "Normal",
+          "description": "Suki paints her opponent's face like a Kyoshi Warrior's, making them embarrassed",
+          "damage": 6.0,
+          "pp": 25
+        },
+        {
+          "id": 3,
+          "name": "Paper Cranes",
+          "issuper": false,
+          "element": "Air",
+          "description": "Suki uses her fans to create paper cranes that attack her opponent",
+          "damage": 20.0,
+          "pp": 15
+        },
+        {
+          "id": 4,
+          "name": "Close Combat",
+          "issuper": false,
+          "element": "Normal",
+          "description": "Suki engages in close combat and throws a series of punches and kicks",
+          "damage": 28.0,
+          "pp": 10
+        }
+      ]
+    }
+  ],
+  "new moves": [
+    {
+      "id": 22,
+      "name": "Fan Dance",
+      "issuper": false,
+      "element": "Earth",
+      "description": "Aang imitates a Kyoshi warrior, performing a combative dance to fight his enemy",
+      "damage": 22.0,
+      "pp": 20
+    }
+  ]
+}

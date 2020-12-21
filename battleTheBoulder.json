@@ -1,0 +1,115 @@
+{
+  "characters": [
+    {
+      "name": "Aang",
+      "isplayer": true,
+      "element": "Avatar",
+      "stats": {
+        "health": 100.0,
+        "power": 1.0,
+        "speed": 1.0,
+        "evasiveness": 1.0
+      },
+      "description": "small, bald, the Avatar",
+      "moves": [
+        {
+          "id": 1,
+          "name": "Avatar State",
+          "issuper": false,
+          "element": "Avatar",
+          "description": "Aang enters the Avatar State, becoming extremely powerful",
+          "damage": 25.0,
+          "pp": 3
+        },
+        {
+          "id": 2,
+          "name": "Tornado Whirl",
+          "issuper": false,
+          "element": "Air",
+          "description": "Aang spins a dazzling whirlwind at his opponent",
+          "damage": 20.0,
+          "pp": 15
+        },
+        {
+          "id": 3,
+          "name": "Spit Ball",
+          "issuper": false,
+          "element": "Normal",
+          "description": "Aang spits on his opponent",
+          "damage": 5.0,
+          "pp": 30
+        },
+        {
+          "id": 4,
+          "name": "Dolphin Spray",
+          "issuper": false,
+          "element": "Water",
+          "description": "Aang showers his opponent with a strong burst of water",
+          "damage": 12.0,
+          "pp": 20
+        }
+      ]
+    },
+    {
+      "name": "The Boulder",
+      "element": "Earth",
+      "isplayer": false,
+      "stats": {
+        "health": 100.0,
+        "power": 1.0,
+        "speed": 1.0,
+        "evasiveness": 1.0
+      },
+      "description": "super big guy, champion Earthbender, probably a gentle giant",
+      "moves": [
+        {
+          "id": 1,
+          "name": "Giant Bowling",
+          "issuper": false,
+          "element": "Earth",
+          "description": "The Boulder becomes a boulder and rolls into his opponent like a giant bowling ball",
+          "damage": 23.0,
+          "pp": 15
+        },
+        {
+          "id": 2,
+          "name": "Karate Chop",
+          "issuper": false,
+          "element": "Normal",
+          "description": "The Boulder karate chops his opponent on the forehead",
+          "damage": 4.0,
+          "pp": 25
+        },
+        {
+          "id": 3,
+          "name": "Buns of Rock",
+          "issuper": false,
+          "element": "Normal",
+          "description": "The Boulder jumps into the air and falls on his opponent, buns first",
+          "damage": 20.0,
+          "pp": 15
+        },
+        {
+          "id": 4,
+          "name": "Rock Wall Fall",
+          "issuper": false,
+          "element": "Earth",
+          "description": "The Boulder creates a tall wall of rock and drops it on his opponents, flattening them",
+          "damage": 25.0,
+          "pp": 5
+        }
+      ]
+    }
+  ],
+  "new moves": [
+    {
+      "id": 23,
+      "name": "Rock Wall Fall",
+      "issuper": false,
+      "element": "Earth",
+      "description": "Aang creates a tall wall of rock and drops it on his opponents, trapping them",
+      "damage": 25.0,
+      "pp": 5
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "characters": [
+    {
+      "name": "Aang",
+      "isplayer": true,
+      "element": "Avatar",
+      "stats": {
+        "health": 100.0,
+        "power": 1.0,
+        "speed": 1.0,
+        "evasiveness": 1.0
+      },
+      "description": "small, bald, the Avatar",
+      "moves": [
+        {
+          "id": 1,
+          "name": "Avatar State",
+          "issuper": false,
+          "element": "Avatar",
+          "description": "Aang enters the Avatar State, becoming extremely powerful",
+          "damage": 27.0,
+          "pp": 3
+        },
+        {
+          "id": 2,
+          "name": "Tornado Whirl",
+          "issuper": false,
+          "element": "Air",
+          "description": "Aang spins a dazzling whirlwind at his opponent",
+          "damage": 20.0,
+          "pp": 15
+        },
+        {
+          "id": 3,
+          "name": "Spit Ball",
+          "issuper": false,
+          "element": "Normal",
+          "description": "Aang spits on his opponent",
+          "damage": 5.0,
+          "pp": 30
+        },
+        {
+          "id": 4,
+          "name": "Dolphin Spray",
+          "issuper": false,
+          "element": "Water",
+          "description": "Aang showers his opponent with a strong burst of water",
+          "damage": 12.0,
+          "pp": 20
+        }
+      ]
+    },
+    {
+      "name": "Ty Lee",
+      "element": "Fire",
+      "isplayer": false,
+      "stats": {
+        "health": 100.0,
+        "power": 1.0,
+        "speed": 1.0,
+        "evasiveness": 1.0
+      },
+      "description": "a bit of an airhead but very cheerful and pretty",
+      "moves": [
+        {
+          "id": 1,
+          "name": "Acrobatics",
+          "issuper": false,
+          "element": "Fire",
+          "description": "Ty Lee stuns and confuses her opponent with a sequence of acrobatic movements combined with bursts of fire",
+          "damage": 10.0,
+          "pp": 15
+        },
+        {
+          "id": 2,
+          "name": "Animal Whisper",
+          "issuper": false,
+          "element": "Normal",
+          "description": "Ty Lee communicates with animals and has them do her bidding",
+          "damage": 10.0,
+          "pp": 25
+        },
+        {
+          "id": 3,
+          "name": "Flaming Cartwheel",
+          "issuper": false,
+          "element": "Fire",
+          "description": "Ty Lee surrounds her opponent with circles of flame",
+          "damage": 20.0,
+          "pp": 12
+        },
+        {
+          "id": 4,
+          "name": "Fire Flips",
+          "issuper": false,
+          "element": "Fire",
+          "description": "Ty Lee moves swiftly around her opponent, spreading flames across the battle ground",
+          "damage": 25.0,
+          "pp": 10
+        }
+      ]
+    }
+  ],
+  "new moves": [
+    {
+      "id": 25,
+      "name": "Flaming Cartwheel",
+      "issuper": false,
+      "element": "Fire",
+      "description": "Aang surrounds his opponent with circles of flame",
+      "damage": 20.0,
+      "pp": 12
+    }
+  ]
+}
